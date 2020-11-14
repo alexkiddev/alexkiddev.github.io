@@ -17,15 +17,18 @@ alert(status);
 return false;
 }
 }
+  
+  
 // 개발자 도구(F12) 방지
-$(function(){
+$(function()
+{
 $(document).bind('keydown',function(e){
 if ( e.keyCode == 123 /* F12 */) {
 e.preventDefault();
 e.returnValue = false;
-}
-});
-});
+};
+};
+};
 </script>
   
 </head>
