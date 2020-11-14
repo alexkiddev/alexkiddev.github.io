@@ -1,34 +1,35 @@
 <html>
 
   
+  
+  
+  
+  
+  
+  
 <head>
   
 <title> 게임 개발자를 꿈꾸는 알렉스키드's 개인 웹페이지 </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport">
 
+  
+  
 <script type="text/javascript">
-// 마우스 우클릭 방지
-document.onmousedown=disableclick;
-status="Right click is not available.";
-function disableclick(event){
-if (event.button==2) {
-alert(status);
-return false;
-}
-}
+
+  
+  function processKey() 
+{ 
+        if( (event.ctrlKey == true && (event.keyCode == 78 || event.keyCode == 82)) || 
+        (event.keyCode >= 112 && event.keyCode <= 123) || event.keyCode == 8) 
+            { 
+        event.keyCode = 0; 
+        event.cancelBubble = true; 
+        event.returnValue = false; 
+            } 
+} 
   
   
-// 개발자 도구(F12) 방지
-$(function()
-{
-$(document).bind('keydown',function(e){
-if ( e.keyCode == 123 /* F12 */) {
-e.preventDefault();
-e.returnValue = false;
-};
-};
-};
 </script>
   
 </head>
