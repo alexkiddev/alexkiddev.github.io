@@ -1,11 +1,41 @@
 <html>
 
+  
 <head>
+  
 <title> 게임 개발자를 꿈꾸는 알렉스키드's 개인 웹페이지 </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport">
+
+<script type="text/javascript">
+    // F12 버튼 방지
+    $(document).ready(function(){
+        $(document).bind('keydown',function(e){
+            if ( e.keyCode == 123 /* F12 */) {
+                e.preventDefault();
+                e.returnValue = false;
+            }
+        });
+    });
+    
+    // 우측 클릭 방지
+    document.onmousedown=disableclick;
+    status="Right click is not available.";
+    
+    function disableclick(event){
+        if (event.button==2) {
+            alert(status);
+            return false;
+        }
+    }
+</script>
+  
 </head>
 
+  
+  
+  
+  
 <body oncontextmenu='return false' onselectstart='return false' ondragstart='return false' >
   
 <div align="center">
