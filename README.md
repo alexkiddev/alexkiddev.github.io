@@ -1,2 +1,2 @@
 # alexkiddev.github.io
-alexkiddev의 홈페이지
+알렉스키드의 개인홈페이지
