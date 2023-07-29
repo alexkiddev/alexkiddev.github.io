@@ -2,7 +2,8 @@
 
 <!--  
 ======================================================================================================
-- 편의상 함 만들어봤습니다.
+- 개인 홈페이지 코드 (저작권:alexkid)
+- 유지보수 : Since 2022
 ======================================================================================================
 -->
   
@@ -27,11 +28,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport">
   
+ <!-- CSS -->
 <style>
   body {background-color : black}
   div {color : white}
 </style>
 
+
+ <!-- 마우스 우클릭 금지 -->
 <script type="text/javascript">
 function keydowncheck()
 {
@@ -43,23 +47,29 @@ result = false;
 }
 return result;
 }
+
 </script>
-  
+
 </head>
 
   
   
-  
+ <!-- 마우스 우클릭 금지2 -->  
 <body LINK="WHITE" VLINK="WHITE" oncontextmenu='return false' onselectstart='return false' ondragstart='return false' onkeydown="return keydowncheck();">
 
+<!-- header 영역 -->  
 <header class=header>
  
+ <!-- 필요없는 영역? -->
+ <!--  
 <div align="right">  
+</div>  
+-->
+
+
  
 
- </div>
- 
- 
+ <!-- 제목과 헤드 -->
 <div align="center">  
 <h1><strong> 전자 흑마법 연구실 </strong></h1>
 <br>  
@@ -68,16 +78,17 @@ return result;
  
 <img src="rurinadesico.gif" style="max-width: 80%; height: auto;"><br>  
 <br>  
-<!-- 
+
+<!-- 음악 -->
 <audio id="music" controls="" autoplay="" loop style="display:block;margin:auto; text-align: center">
-   		<source src=".mp3" type="audio/mp3"> </audio>
+   		<source src="pm2.mp3" type="audio/mp3"> </audio>
 <script>
   var audio = document.getElementById("music");
   audio.volume = 0.5;
 </script>
---> 
- 
- 
+
+
+ <!-- 본문 -->
 <br> 
 <a href="homepage_m.html"> 개인홈페이지(조금씩업뎃중) </a><br>   
 <br>
@@ -105,20 +116,23 @@ return result;
 <br>  
 <br>
 <br>   
-
- 
   
 </div>
 </header>
 
+
+
+
+ <!-- div영역 -->  
 <nav class=nav>
+
 <div align="center">
- 
 </div>
+
 </nav>
   
   
- 
+  <!-- foot 영역 -->
   <footer class=footer>
   <div align="center">
   Copyright (c) Alexkid All rights reserved.
