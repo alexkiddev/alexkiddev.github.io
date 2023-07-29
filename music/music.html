@@ -1,37 +1,79 @@
-<!-- 음악 페이지 -->
+<!-- 음악 -->
 
-<!doctype html> 
+
+
 <html>
-
-
-
+ 
 <head>
-<title>음악 </title>
+<title> 음악 </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport">
+  
+<style>
+  body {background-color : black}
+  div {color : white}
+</style>
+
+<script type="text/javascript">
+function keydowncheck()
+{
+var result = true;
+var keycode = event.keyCode;
+if(123 == keycode)  
+{
+result = false;
+}
+return result;
+}
+</script>
+  
 </head>
 
+  
+  
+  
+<body LINK="WHITE" VLINK="WHITE" oncontextmenu='return false' onselectstart='return false' ondragstart='return false' onkeydown="return keydowncheck();">
 
-
-<body>
-
-<h1> 음악 </h1>
-<br>
-<br>
-<img src="pic\1.jpg">
-<br>
-
-
-<h2> 1. 좋아하는 음악 </h2>
-<br>
-<br>
-
-<strong> 01. 일정 </strong>
+<header class=header>
+ 
+<div align="right">  
  
 
-</body>
+ </div>
+ 
+ 
+<div align="center">  
+<h1><strong> 음악 </strong></h1>
+<br>  
+  <p> - Since 2023 - </p>
+<br> 
+<a href="music/music.html"> 게임 음악 이야기 </a><br>   
+<br> 
+<a href="/music/music.html"> 만화 음악 이야기 </a><br>   
+<br>
+<a href="/music/music.html"> 영화 음악 이야기 </a><br>   
+<br> 
+
+   
+  
+</div>
+</header>
+
+<nav class=nav>
+<div align="center">
 
 
+</div>
+</nav>
+  
+  
+ 
+  <footer class=footer>
+  <div align="center">
+  Copyright (c) Alexkid All rights reserved.
+  </div>
+  </footer>
+ 
 
+ </body>
 </html>
-
