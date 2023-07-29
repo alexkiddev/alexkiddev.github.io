@@ -57,16 +57,12 @@ return result;
  <!-- 마우스 우클릭 금지2 -->  
 <body LINK="WHITE" VLINK="WHITE" oncontextmenu='return false' onselectstart='return false' ondragstart='return false' onkeydown="return keydowncheck();">
 
+
+
+
+
 <!-- header 영역 -->  
 <header class=header>
- 
- <!-- 필요없는 영역? -->
- <!--  
-<div align="right">  
-</div>  
--->
-
-
  
 
  <!-- 제목과 헤드 -->
@@ -80,7 +76,7 @@ return result;
 <br>  
 
 <!-- 음악 -->
-<audio id="music" controls="" autoplay="" loop style="display:block;margin:auto; text-align: center">
+<audio id="music" controls="" autoplay="true" loop style="display:block;margin:auto; text-align: center">
    		<source src="pm2.mp3" type="audio/mp3"> </audio>
 <script>
   var audio = document.getElementById("music");
